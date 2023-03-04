@@ -1,0 +1,43 @@
+#searchinput
+{
+    
+    overflow:hidden;
+    font-size: 20px;
+    padding: 8px;
+
+     border: 3px solid red;
+     color: white;
+     
+     background: none;
+     text-align: center;
+     
+    
+
+}
+
+#food-container
+{
+    background-image: url("./pngtree-black-meat-western-food-banner-background-image_194600.jpg");
+    background-size: cover;
+    
+   
+}
+.mealdetail
+{
+    background-color: rgba(194, 21, 21, 0.027);
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 27, 27);
+    font-size: larger;
+}
+body{
+    background-color:black;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 360px) {
+    #food-container
+    {
+        width: 360px;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       
+        <link rel="stylesheet" href="./style.css">
+</head>
+
+<body >
+    <div class="container   mt-5 p-3" id="food-container">
+        <div class="row">
+            <div id="search"class="col-lg-6 col-sm-12 mt-5 text-center">
+                <h1 class="mt-5 p-2 text-secondary">FOOD APP</h1>
+                <p class="text-warning mt-3" style="font-size: 40px;">search westernfood by name</p>
+               <input  id="searchinput"type="text" class="form-control mt-5 p-2"  >
+               <button  onclick="foodData()" class="btn btn-success mt-5 p-2"type="button" >search</button>
+            </div>
+            <div class="col-lg-6  col-sm-12" >
+                <div class="card  mealdetail" style="width:100%;" >
+                    <div id="photo"></div>
+                    <div class="card-body">
+                      <h5 class="card-title mt-3-2 p-2 text-success text-center" id="foodtype"></h5>
+                      <p class="card-text mt-2 p-2 text-danger" id="instruction"></p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                      <li class="list-group-item  text-info p-2 ms-3 bg-dark border-0" id="categoryname" ></li>
+                      <li class="list-group-item text-info p-2 ms-3 bg-dark border-0" id="area"></li>
+                      
+                    </ul>
+                    <div  id="utube" class="text-center mt-5 p-2">
+                    
+                    
+                      </div>
+                    
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./food.js"></script>
+<script src="https://kit.fontawesome.com/99a477596c.js" crossorigin="anonymous"></script>
+
+</html>
