@@ -19,7 +19,7 @@ function displayData(mealData)
     youtube=mealData.meals[0].strYoutube
     photo.innerHTML= `<img src="${photomeal}" class="card-img-top" alt="..." >`
 
-    foodtype.innerHTML=`${mealname}`
+    foodtype.innerHTML=`<strong>${mealname}</strong>`
     instruction.innerHTML=`<strong>Preparation:-</strong>${ instra}`
     categoryname.innerHTML=`<strong>Category:-</strong>${category}`
     area.innerHTML=`<strong>Area:-</strong>${place}`
